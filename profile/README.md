@@ -15,7 +15,7 @@
 [![Stars](https://img.shields.io/github/stars/smtc2web/smtc2web?style=social)](https://github.com/smtc2web/smtc2web/stargazers)
 [![Contributors](https://img.shields.io/github/contributors/smtc2web/smtc2web?label=contributors)](https://github.com/smtc2web/smtc2web/graphs/contributors)
 [![Website](https://img.shields.io/badge/Web-smtc2web.org-4B32C3)](https://smtc2web.org)
-[![License](https://img.shields.io/badge/License-MIT-green)](https://github.com/smtc2web/smtc2web/blob/master/LICENSE)
+[![License](https://img.shields.io/badge/License-MIT-green?label=main%20app)](https://github.com/smtc2web/smtc2web/blob/master/LICENSE)
 
 </div>
 
@@ -36,8 +36,8 @@ OBS 里加一个浏览器源指过去就有了。不依赖直播平台，不上�
 | [smtc2web-dev](https://github.com/smtc2web/smtc2web-dev) | 面向 smtc2web 开发环境的命令行工具 |
 | [smtc2web-themes](https://github.com/smtc2web/smtc2web-themes) | 主题商店，可免费下载或发布主题 |
 | [theme-upload](https://github.com/smtc2web/theme-upload) | 主题发布流水线，让主题的更新分发更省事 |
-| [r2-dir-list](https://github.com/smtc2web/r2-dir-list) | Cloudflare R2 下载镜像的目录列表页 |
-| [smtc2web-theme-spotify](https://github.com/smtc2web/smtc2web-theme-spotify) | 默认内嵌的 Spotify 风格主题，作为子模块编译进主程序 |
+| [r2-dir-list](https://github.com/smtc2web/r2-dir-list) | Cloudflare R2 下载镜像的目录列表页（fork 自 cmj2002/r2-dir-list） |
+| [smtc2web-theme-spotify](https://github.com/smtc2web/smtc2web-theme-spotify) | Spotify 风格主题，在组织内作为公开模板维护；主程序子模块目前指向 `AkarinLiu/smtc2web-theme-spotify` |
 | [smtc2web-theme-default](https://github.com/smtc2web/smtc2web-theme-default) | 主题开发模板，从这里起步写自己的主题 |
 
 ## 快速上手
@@ -100,14 +100,20 @@ platform lock-in, no telemetry, bound to `127.0.0.1` by default.
 - **Security**: report vulnerabilities privately through
   [security advisories](https://github.com/smtc2web/smtc2web/security/advisories/new);
   only the latest patch release is supported.
+- **Licenses**: not uniform — the app, the dev CLI, the theme pipeline and the R2 listing are MIT,
+  both theme repos are CC0-1.0, and the website plus theme store have no license declared yet.
 - **Docs**: <https://smtc2web.org/wiki/compile>
 
 </details>
 
----
+## 许可
 
-<div align="center">
+各仓库的许可以其仓库内的 LICENSE 文件为准，并不统一：
 
-除主程序外的仓库同样以 MIT 许可开放，欢迎 fork、改造和把它带进你的直播间。
+| 范围 | 许可 |
+| --- | --- |
+| 主程序 smtc2web、smtc2web-dev、theme-upload、r2-dir-list | MIT |
+| 两个主题仓库（spotify / default） | CC0 1.0 Universal，贡献到公有领域 |
+| smtc2web-website、smtc2web-themes | 暂未声明，复用前请先开 Issue 确认 |
 
-</div>
+欢迎 fork、改造，把主题带进你的直播间。
