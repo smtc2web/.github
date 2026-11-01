@@ -64,7 +64,7 @@ OBS 里加一个浏览器源指过去就有了。不依赖直播平台，不上�
 - 参与方式见 [CONTRIBUTING.md](https://github.com/smtc2web/smtc2web/blob/master/CONTRIBUTING.md)，
   行为准则见 [CODE_OF_CONDUCT.md](https://github.com/smtc2web/smtc2web/blob/master/CODE_OF_CONDUCT.md)。
 - 提功能或问题：Issues 里已备好缺陷与功能请求两套模板。
-- 实时交流：[Zed 社区频道](https://zed.dev/channel/smtc2web-31825)，或写信到 <hello@smtc2web.org>。
+- 实时交流：[Zulip 社区](https://smtc2web.zulipchat.com)，或写信到 <hello@smtc2web.org>。
 - 长期贡献、修复过恶意漏洞或提供关键代码的参与者，会按贡献者指南的说明获得 Maintainer 权限。
 - 本项目靠爱发电，欢迎<a href="https://smtc2web.org/#%E6%8D%90%E8%B5%A0">捐赠支持</a>。
 
